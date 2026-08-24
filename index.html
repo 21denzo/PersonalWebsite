@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MyWebsite</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="navbar_container">
+                <a href="#home" id ="navbar_logo">DENZEL OPOKU</a>
+                <div class="navbar_toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar_menu">
+                    <li class="navbar_item">
+                        <a href="#home" class="navbar_links" id="home-page">Home</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="#projects" class="navbar_links" id="projects-page">Projects</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="#about_me" class="navbar_links" id="about_me-page">About Me</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="#contact" class="navbar_links" id="contact-page">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class ="main_body">
+            <div class = "main_body_item">
+                <div class = "home_title_bar">
+                    <div class = "profile_title">
+                        Hi I am Denzel...
+                    </div>
+                    <div id="profile_picture_container">
+                        <img src="Media/Bewerbungsfoto.jpg" alt="Profile Picture" id="profile_picture">
+                    </div>
+                </div>
+                <div class = "home_text_bar" id = "profile_text_container">
+                    <div class = "profile_text">
+                        <p style="color: darkgrey; font-size: 28px; font-family: 'Kumbh Sans', sans-serif; line-height: 3rem; width: 100%;">
+                            ...a Computer Science student from Zurich, Switzerland, currently in my third year of my Bachelor’s at ETH Zurich.
+
+                            I’m curious about many different areas of computer science and enjoy exploring how they connect. I’m particularly interested in web development, computer networks, machine learning, and cybersecurity, and I’m always looking for opportunities to learn something new and turn that knowledge into practical projects.
+
+                            This website is a place for me to share what I’m working on, what I’m learning, and some of the projects I’ve built along the way.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class = "main_body_item">
+                <h1>PROJECTS</h1>
+                <p style="color: darkgrey; font-size: 28px; font-family: 'Kumbh Sans', sans-serif; line-height: 3rem; width: 100%;">These are some of the projects that I have worked on in the past.</p>
+                <div class="project_bar">
+                    <div class="project_container">
+                        <p class="project_description" style="font-size: 20px; line-height: 1.5rem;"> This is a simple TicTacToe-Game done using Tkinter in Python.</p>
+                        <div class="project_screenshot_container">
+                            <img src="Media/TicTacToe.jpg" alt="Screenshot of TicTacToe" class="project_screenshot">
+                        </div>
+                        <button class="project_button">GitHub Repo</button>
+                    </div>
+                </div>
+            </div>
+            <div class = "main_body_item">
+                <h1>ABOUT ME</h1>
+                <div class="about_me_bar">
+                    <div class="about_me_container">
+                        <p>Firm believer in Jesus Christ</p>
+                        <div class="about_me_pic_container">
+                            <img src="Media/church_pic.jpg" alt="">
+                        </div>
+                        <p>I believe that Jesus Christ died on the cross for our sins and rose again three days later. I believe in life after death and that the only way to eternal life in heaven is through Jesus Christ. I worship at Zurich City Church, and you are warmly welcome to join us in worship!
+                        </p>
+                    </div>
+                    <div class="about_me_container">
+                        <p>Swiss Army Officer</p>
+                        <div class="about_me_pic_container">
+                            <img src="Media/A_058__Print-8756.jpg" alt="">
+                        </div>
+                        <p> 
+                            Back in January 2021, I began my military service as a recruit at Infanterieschule 12 in Gossau, SG. After 66 weeks filled with unforgettable memories, valuable experiences, and countless challenges, I completed my continuous service. I am now privileged to continue my military journey through repetition courses with Inf Bat 97/1.
+                        </p>
+                    </div>
+                </div>    
+            </div>
+            <div class = "main_body_item">
+                <h1>CONTACT</h1>
+                <p>Feel free to contact me to connect or for constructive feedback</p>
+                <form action="https://formsubmit.co/denzel.opoku@yahoo.com" method="POST">
+
+
+
+                    <div><input type="text" placeholder="First Name" required></div>
+                    <div><input type="text" placeholder="Last Name" required></div>
+                    <div><input type="text" placeholder="Email" required></div>
+                    <div><textarea name="message" id="message" rows="10" cols="50" placeholder="Leave a message..."></textarea></div>
+                    <br>
+                    <input type="submit">
+                </form>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
+
+
+ <!--<div><h2>Introduction</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci voluptate itaque ducimus. Distinctio nostrum ipsum repellat voluptatum illum aliquam, voluptatibus quia sunt mollitia doloribus debitis nulla vitae, recusandae explicabo aut.</p>
+            </div>
+            
+            <div><h2>Projects</h2>
+            <dl>
+                <dt><a href="">Project1</a></dt>
+                <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates culpa pariatur distinctio atque earum? Nihil veritatis sint, omnis, tempora beatae voluptatem nulla deleniti reprehenderit perspiciatis facere incidunt. Ratione, nemo! Officia.</dd>
+                <dt><a href="">Project2</a></dt>
+                <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates culpa pariatur distinctio atque earum? Nihil veritatis sint, omnis, tempora beatae voluptatem nulla deleniti reprehenderit perspiciatis facere incidunt. Ratione, nemo! Officia.</dd> 
+                <dt><a href="">Project2</a></dt>
+                <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates culpa pariatur distinctio atque earum? Nihil veritatis sint, omnis, tempora beatae voluptatem nulla deleniti reprehenderit perspiciatis facere incidunt. Ratione, nemo! Officia.</dd> 
+                <dt><a href="">Project2</a></dt>
+                <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates culpa pariatur distinctio atque earum? Nihil veritatis sint, omnis, tempora beatae voluptatem nulla deleniti reprehenderit perspiciatis facere incidunt. Ratione, nemo! Officia.</dd> 
+                <dt><a href="">Project2</a></dt>
+                <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates culpa pariatur distinctio atque earum? Nihil veritatis sint, omnis, tempora beatae voluptatem nulla deleniti reprehenderit perspiciatis facere incidunt. Ratione, nemo! Officia.</dd> 
+                <dt><a href="">Project2</a></dt>
+                <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates culpa pariatur distinctio atque earum? Nihil veritatis sint, omnis, tempora beatae voluptatem nulla deleniti reprehenderit perspiciatis facere incidunt. Ratione, nemo! Officia.</dd> 
+                <dt><a href="">Project2</a></dt>
+                <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates culpa pariatur distinctio atque earum? Nihil veritatis sint, omnis, tempora beatae voluptatem nulla deleniti reprehenderit perspiciatis facere incidunt. Ratione, nemo! Officia.</dd> 
+                <dt><a href="">Project2</a></dt>
+                <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates culpa pariatur distinctio atque earum? Nihil veritatis sint, omnis, tempora beatae voluptatem nulla deleniti reprehenderit perspiciatis facere incidunt. Ratione, nemo! Officia.</dd> 
+                <dt><a href="">Project2</a></dt>
+                <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates culpa pariatur distinctio atque earum? Nihil veritatis sint, omnis, tempora beatae voluptatem nulla deleniti reprehenderit perspiciatis facere incidunt. Ratione, nemo! Officia.</dd> 
+            </dl></div>
+
+            <div><h2>Skills</h2>
+                <table>
+                    <tr><td><b>Skill</b></td><td><b>Description</b></td></tr>
+                    <tr><td>Skill1</td><td>Description1</td></tr>
+                    <tr><td>Skill2</td><td>Description2</td></tr>
+                </table></div>
+
+            <div><h2>Education</h2>
+            <p>Third Semester of my Computer Science Bachelor</p></div>
+
+            <div><h2>Contact Me</h2>
+            <table>
+                <tr><td>Email</td><td>denzo@email.com</td></tr>
+                <tr><td>git</td><td><a href="">21denzo</a></td></tr>
+            </table></div>
+        -->
