@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+        <button id="scroll_up">↑</button>
         <div class="navbar">
             <div class="navbar_container">
                 <a href="#home" id ="navbar_logo">DENZEL OPOKU</a>
@@ -33,7 +34,7 @@
             </div>
         </div>
         <div class ="main_body">
-            <div class = "main_body_item">
+            <div class = "main_body_item" id="home">
                 <div class = "home_title_bar">
                     <div class = "profile_title">
                         Hi I am Denzel...
@@ -54,7 +55,7 @@
                 </div>
             </div>
             
-            <div class = "main_body_item">
+            <div class = "main_body_item" id="projects">
                 <h1>PROJECTS</h1>
                 <p style="color: darkgrey; font-size: 28px; font-family: 'Kumbh Sans', sans-serif; line-height: 3rem; width: 100%;">These are some of the projects that I have worked on in the past.</p>
                 <div class="project_bar">
@@ -67,7 +68,7 @@
                     </div>
                 </div>
             </div>
-            <div class = "main_body_item">
+            <div class = "main_body_item" id="about_me">
                 <h1>ABOUT ME</h1>
                 <div class="about_me_bar">
                     <div class="about_me_container">
@@ -91,7 +92,7 @@
                     </div>
                 </div>    
             </div>
-            <div class = "main_body_item">
+            <div class = "main_body_item" id="contact">
                 <h1>CONTACT</h1>
                 <p>Feel free to contact me to connect or for constructive feedback</p>
                 <form action="https://formsubmit.co/24e128deffd6f133e5ecceeddfa8c329" method="POST">
@@ -106,14 +107,14 @@
 
                     <!--Succsess Page-->
 
-                    <input type="hidden" name="_next" value="https://21denzo.github.io/PersonalWebsite/success.html">
+                    <input type="hidden" name="_next" value="https://21denzo.github.io/PersonalWebsite/success#contact.html">
 
 
 
                     <div><input type="text" name = "Name" placeholder="First Name" required></div>
                     <div><input type="text" name = "Last&nbsp;Name" placeholder="Last Name" required></div>
                     <div><input type="text" name = "Email" placeholder="Email" required></div>
-                    <div><textarea name="message" id="Message" rows="10" cols="30" placeholder="Leave a message..."></textarea></div>
+                    <div><textarea name="Message" id="message" rows="10" cols="30" placeholder="Leave a message..."></textarea></div>
                     <br>
                     <input type="submit">
                 </form>
