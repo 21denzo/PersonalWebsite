@@ -367,5 +367,6 @@ form textarea{
     border-radius: 50%;
     font-size: 18px;
     cursor: pointer;
+    display: none;
 
 }
