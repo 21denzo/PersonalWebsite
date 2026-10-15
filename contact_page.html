@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DENZO</title>
+        <link rel="icon" type="image/jpeg" href="Media/favicon.jpg">       
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="navbar_container">
+                <a href="index.html" id ="navbar_logo">DENZEL OPOKU</a>
+                <div class="navbar_toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar_menu">
+                    <li class="navbar_item">
+                        <a href="index.html" class="navbar_links" id="home-page">Home</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="projects_page.html" class="navbar_links" id="projects-page">Projects</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="aboutme_page.html" class="navbar_links" id="about_me-page">About Me</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="contact_page.html" class="navbar_links" id="contact-page">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class = "main_body_item" id="contact">
+                <h1>CONTACT</h1>
+                <p>Feel free to contact me to connect or for constructive feedback</p>
+                <div class = "form_container">
+
+                
+                <form action="https://formsubmit.co/24e128deffd6f133e5ecceeddfa8c329" method="POST">
+                    
+                    <!-- Honepot-->
+
+                    <input type="text" name= "_honey" style= "display:none;">
+
+                    <!--Disable Captcha-->
+
+                    <input type="hidden" name= "_captcha" value="false">
+
+                    <!--Succsess Page-->
+
+                    <input type="hidden" name="_next" value="https://21denzo.github.io/PersonalWebsite/success.html">
+
+
+
+                    <div><input type="text" name = "Name" placeholder="First Name" required></div>
+                    <div><input type="text" name = "Last&nbsp;Name" placeholder="Last Name" required></div>
+                    <div><input type="text" name = "Email" placeholder="Email" required></div>
+                    <div><textarea name="Message" id="message" rows="10" cols="30" placeholder="Leave a message..."></textarea></div>
+                    <br>
+                    <input type="submit">
+                </form>
+                </div>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+    <footer>
+            <a href="privacypolicy.html"> Privacy Policy </a>
+    </footer>
+</html>
+
+
